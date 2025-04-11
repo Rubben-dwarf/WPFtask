@@ -133,9 +133,7 @@ namespace ПР_9
 
         private void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

@@ -49,7 +49,7 @@ namespace ПР_9
         {
             var countriesWindow = new CountriesWindow();
             countriesWindow.CountriesUpdated += LoadCountriesComboBox; 
-            countriesWindow.ShowDialog();
+            countriesWindow.Show();
         }
 
         private void Control_Click(object sender, RoutedEventArgs e)
